@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.right_position{
+    position: absolute;
+    right: opx;
+}
+.Textlogo{
+    color: black;
+    margin: 20px;
+    font-size: 25px;
+}
+nav{
+    margin-left:20px;
+    margin-right: 30px;
+}
+.hr_nav{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a li{
+    color: black;
+}
+.anav{
+    color: black;
+}
+.marginStandard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right_corner{
+    position: absolute;
+    right: 10px;
+}
+.imgBoxsize{
+    width: 30%;
+    height: auto;
+}
+.imgBox{
+    width: 100%;
+}
+.textLine{
+    width: 100%;
+}
+.buttonReadmore{
+   width: fit-content;
+}
+.linkAnimate{
+
+}
+.linkAnimate:hover{
+    border: 0.5px solid rgb(122, 122, 122);
+    border-radius: 22px;
+    box-shadow: 0.5 px 2px 0.5px 2px grey;
+}
+.footer {
+    margin-bottom: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .containerFooter{
+    margin-top: 20px;
+  }
+.footerbutton{
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    box-shadow: 1px 0.5px 1px 0.5px grey;
+}
