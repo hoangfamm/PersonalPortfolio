@@ -1,0 +1,26 @@
+#bgcolor {
+    background-color: #BB0000; /* Set your desired background color */
+    color: #ffffff; /* Set your desired text color */
+  }
+#bgcolor2 {
+    background-color: #ffffff; /* Set your desired background color */
+  }
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff; /* Set your desired text color */
+  }
+
+ .icon_bg {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/2489/2489111.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+  }
+
+  .navbar-custom .navbar-toggler:focus,
+  .navbar-custom .navbar-toggler:active,
+  .navbar-custom .navbar-toggler:hover {
+    outline: none;
+    /* Additional styles for the toggle button on focus, active, and hover */
+  }
