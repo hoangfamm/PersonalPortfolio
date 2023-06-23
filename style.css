@@ -1,102 +1,125 @@
 #bgcolor {
-    background-color: #BB0000; /* Set your desired background color */
-    color: #ffffff; /* Set your desired text color */
+    background-color: #BB0000;
+    /* Set your desired background color */
+    color: #ffffff;
+    /* Set your desired text color */
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
+
 #bgcolor2 {
-    background-color: #ffffff; /* Set your desired background color */
-  }
-.navbar-brand{
+    background-color: #ffffff;
+    /* Set your desired background color */
+}
+
+.navbar-brand {
     font-size: 30px;
 }
 
 .navbar .navbar-nav .nav-link {
-    color: #ffffff; /* Set your desired text color */
+    color: #ffffff;
+    /* Set your desired text color */
     font-size: 25px;
-  }
+}
 
- .icon_bg {
+.icon_bg {
     background-image: url("https://cdn-icons-png.flaticon.com/128/2489/2489111.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     border: none;
-  }
+}
 
-  .navbar-custom .navbar-toggler:focus,
-  .navbar-custom .navbar-toggler:active,
-  .navbar-custom .navbar-toggler:hover {
+.navbar-custom .navbar-toggler:focus,
+.navbar-custom .navbar-toggler:active,
+.navbar-custom .navbar-toggler:hover {
     outline: none;
     /* Additional styles for the toggle button on focus, active, and hover */
-  }
-.imageBannerx{
+}
+
+.imageBannerx {
     margin-left: 30px;
 }
-.introSection{
+
+.introSection {
     margin-top: 100px;
 }
-.textEdit1{
+
+.textEdit1 {
     font-size: 60px;
     color: #BB0000;
 }
-.textCommon{
+
+.textCommon {
     font-size: 40px;
     color: black;
 }
-.textEdit2{
+
+.textEdit2 {
     color: black;
     font-size: 60px;
     font-weight: 100;
     letter-spacing: 0.2em;
 }
 
-.buttonEdit1{
+.buttonEdit1 {
     background-color: #BB0000;
-    color:#ffffff;
+    color: #ffffff;
     padding: 5px;
     border-radius: 10px;
     border: none;
 }
-.buttonEdit1:hover{
+
+.buttonEdit1:hover {
     background-color: #ef9090;
     color: #090000;
     border-radius: 10px;
     box-shadow: 0.5px 1px 0.5px 1px rgb(233, 233, 233);
 }
 
-.buttonEdit2{
+.buttonEdit2 {
     background-color: #ffffff;
     color: #090000;
     padding: 5px;
     border-radius: 10px;
     border: 1px solid #BB0000;
 }
-.buttonEdit2:hover{
+
+.buttonEdit2:hover {
     background-color: #bd0000;
-    color:#ffffff;
+    color: #ffffff;
     border-radius: 10px;
     border: 1px solid white;
 }
 
-.buttonAlign{
+.buttonAlign {
     margin-top: 20px;
 }
-.buttonAlign button{
+
+.buttonAlign button {
     margin-left: 15px;
     padding: 13px;
 }
-.introSection2{
+
+.introSection2 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.avatarEdit1{
+
+.avatarEdit1 {
     width: 400px;
     border-radius: 50%;
     border: 5px solid rgb(213, 0, 0);
 }
-.introp{
+
+.introp {
     font-size: 20px;
 }
-#buttonUedit{
+
+#buttonUedit {
     padding: 10px;
 }
 
@@ -105,29 +128,33 @@
     top: 0;
     width: 100%;
     z-index: 9999;
-  }
-  
-  .fixed-top.navbar-custom {
+}
+
+.fixed-top.navbar-custom {
     background-color: #BB0000;
-  }
-  
-  .fixed-top .navbar-collapse {
+}
+
+.fixed-top .navbar-collapse {
     max-height: calc(100vh - 56px);
     overflow-y: auto;
-  }
-  .ulEdit{
+}
+
+.ulEdit {
     list-style-type: none;
-  }
-  .ulEdit li{
+}
+
+.ulEdit li {
     margin-top: 10px;
     font-size: 20px;
     margin-bottom: 35px;
-  }
-  .personalSection{
+}
+
+.personalSection {
     margin-top: 30px;
-  }
-  .personalButton{
-    
+}
+
+.personalButton {
+
     justify-content: center;
     padding: 10px;
     background-color: #BB0000;
@@ -135,45 +162,189 @@
     color: white;
     font-size: 20px;
     margin-bottom: 30px;
-  }
-  .headingSkill{
+}
+
+.headingSkill {
     text-decoration: underline;
-    text-decoration-color:#BB0000;
+    text-decoration-color: #BB0000;
     font-size: 40px;
-  }
-  .skillSection{
+}
+
+.skillSection {
     margin-top: 30px;
     margin-bottom: 30px;
-  }
-  .progress{
+}
+
+.progress {
     background-color: #090000;
     height: 40px;
     margin-bottom: 20px;
-  }
-  .progress-bar{
+}
+
+.progress-bar {
     background-color: #BB0000;
-  }
-  .yearButton{
+}
+
+.yearButton {
     padding: 10px;
-    border-radius: 10px ;
+    border-radius: 10px;
     border: none;
     box-shadow: 1px 1px 1px 1px rgb(206, 206, 206);
-  }
-  .headingQua{
+}
+
+.headingQua {
     font-size: 40px;
-  }
-  .uniqueDes{
+}
+
+.uniqueDes {
     color: white;
     padding: 5px;
     background-color: #BB0000;
     border-radius: 10px;
-  }
-  .qualifont{
+}
+
+.qualifont {
     font-size: 20px;
-  }
-  .servicesBanner{
-    width: 200px;
+}
+
+.servicesBanner {
+    width: fit-content;
     margin-top: 50px;
+}
+
+.rowDes {
+    margin-top: 50px;
+}
+
+.home-testimonial {
+    background-color: #231834;
+    height: 380px
+}
+
+.home-testimonial-bottom {
+    background-color: #f8f8f8;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px
+}
+
+.home-testimonial h3 {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.testimonial-inner {
+    position: relative;
+    top: -174px
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 5px;
+    padding: 40px
+}
+
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+
+.testimonialDes {
+    background-color: #BB0000;
+}
+
+.servicesBanner img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .servicesBanner {
+        padding: 0;
+        /* Optional: Adjust padding or remove it based on your layout */
+    }
+}
+
+.formSection {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.formButton {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BB0000;
+    color: white;
+    font-size: 25px;
+}
+
+.ulEdit2 {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
   }
-  
-  
+
+  /* Adjust the margin-top of the content to push it above the footer */
+  .content {
+    flex: 1;
+    margin-bottom: 80px; /* Adjust this value to match the height of your footer */
+  }
+  .testimonial-avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  #marginOne{
+    margin-bottom: 50px;
+  }
+  .list-unstyled li{
+    color: #f8f8f8;
+  }
+  .liColortext{
+    color: white;
+  }
