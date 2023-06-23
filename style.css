@@ -5,9 +5,13 @@
 #bgcolor2 {
     background-color: #ffffff; /* Set your desired background color */
   }
+.navbar-brand{
+    font-size: 30px;
+}
 
 .navbar .navbar-nav .nav-link {
     color: #ffffff; /* Set your desired text color */
+    font-size: 25px;
   }
 
  .icon_bg {
@@ -24,3 +28,152 @@
     outline: none;
     /* Additional styles for the toggle button on focus, active, and hover */
   }
+.imageBannerx{
+    margin-left: 30px;
+}
+.introSection{
+    margin-top: 100px;
+}
+.textEdit1{
+    font-size: 60px;
+    color: #BB0000;
+}
+.textCommon{
+    font-size: 40px;
+    color: black;
+}
+.textEdit2{
+    color: black;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
+
+.buttonEdit1{
+    background-color: #BB0000;
+    color:#ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.buttonEdit1:hover{
+    background-color: #ef9090;
+    color: #090000;
+    border-radius: 10px;
+    box-shadow: 0.5px 1px 0.5px 1px rgb(233, 233, 233);
+}
+
+.buttonEdit2{
+    background-color: #ffffff;
+    color: #090000;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #BB0000;
+}
+.buttonEdit2:hover{
+    background-color: #bd0000;
+    color:#ffffff;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.buttonAlign{
+    margin-top: 20px;
+}
+.buttonAlign button{
+    margin-left: 15px;
+    padding: 13px;
+}
+.introSection2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.avatarEdit1{
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid rgb(213, 0, 0);
+}
+.introp{
+    font-size: 20px;
+}
+#buttonUedit{
+    padding: 10px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .fixed-top.navbar-custom {
+    background-color: #BB0000;
+  }
+  
+  .fixed-top .navbar-collapse {
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+  }
+  .ulEdit{
+    list-style-type: none;
+  }
+  .ulEdit li{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .personalSection{
+    margin-top: 30px;
+  }
+  .personalButton{
+    
+    justify-content: center;
+    padding: 10px;
+    background-color: #BB0000;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .headingSkill{
+    text-decoration: underline;
+    text-decoration-color:#BB0000;
+    font-size: 40px;
+  }
+  .skillSection{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .progress{
+    background-color: #090000;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .progress-bar{
+    background-color: #BB0000;
+  }
+  .yearButton{
+    padding: 10px;
+    border-radius: 10px ;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(206, 206, 206);
+  }
+  .headingQua{
+    font-size: 40px;
+  }
+  .uniqueDes{
+    color: white;
+    padding: 5px;
+    background-color: #BB0000;
+    border-radius: 10px;
+  }
+  .qualifont{
+    font-size: 20px;
+  }
+  .servicesBanner{
+    width: 200px;
+    margin-top: 50px;
+  }
+  
+  
