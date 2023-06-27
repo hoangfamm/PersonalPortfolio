@@ -26,4 +26,19 @@ function sendEmail() {
         // Handle error: display an error message to the user
       });
   }
+
+  function downloadFile() {
+    // Replace 'file_url' with the actual URL of the file you want to download
+    var fileUrl = 'Hoang_PhamCVS.pdf';
+    
+    var link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = 'Hoang_PhamCVS.pdf';
+    link.target = '_blank';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+  
   
