@@ -20,7 +20,8 @@
         integrity="sha512-..." crossorigin="anonymous" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="icon" href="img/tablogo.png" type="image/png">
-
+    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script src="./javascript.js"></script>
     <title>Leo's portfolio</title>
 </head>
 
@@ -359,30 +360,30 @@
                     </li>
                 </ul>
                 <!-- Form -->
-                <form>
+                <form onsubmit="sendEmail(); return false;" action="/submit" method="POST">
                     <div class="form-group">
-                        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp"
                             placeholder="Your name ...">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
                             placeholder="Your email ...">
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" id="subjectInput" aria-describedby="subjectHelp"
                             placeholder="Subject ...">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Leave your message here ...">
+                        <textarea class="form-control" id="messageInput" rows="4" placeholder="Leave your message here ..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-danger">Submit</button>
                 </form>
+                
             </div>
             </div>
         </section>
 
-        <footer class="footer bg-dark text-light">
+        <footer class="footer footer_bg text-light">
             <div class="container">
                 <div class="row">
                     <div class="col-md">
