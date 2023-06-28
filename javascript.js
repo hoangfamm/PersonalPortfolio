@@ -29,7 +29,7 @@ function sendEmail() {
 
   function downloadFile() {
     // Replace 'file_url' with the actual URL of the file you want to download
-    var fileUrl = 'Hoang_PhamCVS.pdf';
+    var fileUrl = 'Hoangpham_CVS.pdf';
     
     var link = document.createElement('a');
     link.href = fileUrl;
